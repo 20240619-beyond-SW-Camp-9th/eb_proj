@@ -5,6 +5,8 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# application-test.yml은 github에 올리지 않는다(중요!!)
+application-test.yml
 ### STS ###
 .apt_generated
 .classpath
