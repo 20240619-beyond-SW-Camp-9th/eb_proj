@@ -16,7 +16,7 @@ public class MenuController {
     public MenuController(MenuService menuService) {
         this.menuService = menuService;
     }
-
+ 
     @GetMapping("health")
     public String healthCheck() {
         return "eb_proj is fine!";
