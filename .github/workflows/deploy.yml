@@ -38,6 +38,10 @@ jobs:
           cat > src/main/resources/application.yml.template <<EOL
           server:
             port: 5000
+            servlet:
+              encoding:
+                charset: UTF-8
+                force: true
           
           spring:
             datasource:
