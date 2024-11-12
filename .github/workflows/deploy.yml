@@ -41,7 +41,7 @@ jobs:
             servlet:
               encoding:
                 charset: UTF-8
-                force: true
+                force: true 
           
           spring:
             datasource:
